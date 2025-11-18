@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huerto Digital Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌱 Huerto Digital Escolar</h1>
+        <p>Registro digital del crecimiento de nuestras plantas</p>
+    </header>
+
+    <section class="form-section">
+        <h2>Registrar crecimiento</h2>
+        <form id="plantForm">
+            <input type="text" id="plantName" placeholder="Nombre de la planta" required>
+            <input type="number" id="plantHeight" placeholder="Altura (cm)" required>
+            <input type="date" id="plantDate" required>
+            <button type="submit">Registrar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Datos registrados</h2>
+        <div id="plantCards"></div>
+    </section>
+
+    <footer>
+        <p>📘 Proyecto escolar – Tacna | Prototipo Tecnológico 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
